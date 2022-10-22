@@ -69,8 +69,8 @@ services:
       redis:
         condition: service_healthy
     networks:
-      - internal
       - default
+      - internal
 
   paper:
     container_name: paper
